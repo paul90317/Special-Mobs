@@ -1,0 +1,1 @@
+execute as @e[type=#sp_mobs:friend,distance=..8,nbt={HurtTime:9s}] at @s run summon lightning_bolt
