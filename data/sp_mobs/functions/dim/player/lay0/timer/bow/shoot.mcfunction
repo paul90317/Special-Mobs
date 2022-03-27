@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{tag:{sp_mob:{id:lt}}}}] run function sp_mobs:dim/player/weapon/lt
+execute if entity @s[nbt={SelectedItem:{tag:{sp_mob:{id:sn}}}}] run function sp_mobs:dim/player/weapon/sn

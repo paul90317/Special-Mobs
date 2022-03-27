@@ -73,6 +73,28 @@
             "entries": [
                 {
                     "type": "loot_table",
+                    "name": "sp_mobs:weapons/ice_bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
                     "name":"sp_mobs:exp",
                     "functions": [
                         {

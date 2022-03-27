@@ -10,5 +10,9 @@ execute if score #world spmobs.intv23 matches 23.. run scoreboard players set #w
 execute as @e[type=#sp_mobs:enimy,tag=sp_mob.ovw] at @s if entity @p[distance=..48] run function sp_mobs:dim/overworld/special
 execute as @e[type=#sp_mobs:enimy,tag=sp_mob.net] at @s if entity @p[distance=..48] run function sp_mobs:dim/nether/special
 execute as @e[type=#sp_mobs:enimy,tag=sp_mob.end] at @s if entity @p[distance=..48] run function sp_mobs:dim/end/special
+
 execute if score #world spmobs.ed matches 1 as @e[type=ender_dragon] at @s run function sp_mobs:dim/dragon/special
+
 execute as @e[type=item,nbt={Item:{tag:{sp_mob:{item:1}}}}] at @s run function sp_mobs:dim/item/special
+
+execute as @a at @s run function sp_mobs:dim/player/loop
