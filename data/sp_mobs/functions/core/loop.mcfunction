@@ -3,7 +3,7 @@ execute if score #world spmobs.intv10 matches 10.. run function sp_mobs:core/loo
 scoreboard players add #world spmobs.intv13 1
 execute if score #world spmobs.intv13 matches 13.. run scoreboard players set #world spmobs.intv13 0
 scoreboard players add #world spmobs.intv2 1
-execute if score #world spmobs.intv2 matches 2.. run scoreboard players set #world spmobs.intv2 0
+execute if score #world spmobs.intv2 matches 2.. run function sp_mobs:core/loop2
 scoreboard players add #world spmobs.intv23 1
 execute if score #world spmobs.intv23 matches 23.. run scoreboard players set #world spmobs.intv23 0
 

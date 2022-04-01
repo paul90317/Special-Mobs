@@ -1,1 +1,1 @@
-scoreboard players set @s spm.p.dur 45
+scoreboard players set @s spm.p.dur 35
