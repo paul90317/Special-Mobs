@@ -1,1 +1,1 @@
-execute at @e[type=#sp_mobs:friend] run function sp_mobs:skill/falling_stars
+execute at @a[nbt={Dimension:"minecraft:the_end"}] run function sp_mobs:skill/falling_stars
