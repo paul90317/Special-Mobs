@@ -1,2 +1,1 @@
-summon chest_minecart ~ ~ ~ {PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,CustomName:'{"text":"Revenger\'s Treasure","color":"gold"}'}
-loot replace entity @e[sort=nearest,limit=1,type=chest_minecart,tag=sp_mob] container.0 loot sp_mobs:chest/revenger
+summon chest_minecart ~ ~ ~ {LootTable:"sp_mobs:chest/revenger",PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,CustomName:'{"text":"Revenger\'s Treasure","color":"gold"}'}

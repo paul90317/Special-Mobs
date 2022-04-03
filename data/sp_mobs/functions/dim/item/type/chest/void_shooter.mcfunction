@@ -1,2 +1,1 @@
-summon chest_minecart ~ ~ ~ {PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,CustomName:'{"text":"Void Treasure","color":"light_purple"}'}
-loot replace entity @e[sort=nearest,limit=1,type=chest_minecart,tag=sp_mob] container.0 loot sp_mobs:chest/void_shooter
+summon chest_minecart ~ ~ ~ {LootTable:"sp_mobs:chest/void_shooter",PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,CustomName:'{"text":"Void Treasure","color":"light_purple"}'}
