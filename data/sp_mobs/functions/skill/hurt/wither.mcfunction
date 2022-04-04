@@ -1,1 +1,0 @@
-execute as @e[type=#sp_mobs:friend,distance=..5,nbt={HurtTime:9s}] at @s run effect give @s wither 4 1

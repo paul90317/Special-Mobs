@@ -1,1 +1,0 @@
-function sp_mobs:skill/tnt

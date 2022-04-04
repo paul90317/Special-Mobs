@@ -1,2 +1,0 @@
-summon spider ~ ~ ~ {CustomName:'{"text":"Black Widow","color":"white"}',Tags:[sp_mob,sp_mob.ovw],DeathLootTable:"sp_mobs:black_widow",ActiveEffects:[{Id:11b,Amplifier:0,Duration:999999999}]}
-scoreboard players set @s spmobs.cnt 0

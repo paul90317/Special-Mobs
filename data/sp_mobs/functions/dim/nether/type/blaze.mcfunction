@@ -1,1 +1,0 @@
-execute if predicate sp_mobs:very_rare run function sp_mobs:summon/revenger

@@ -1,1 +1,0 @@
-summon area_effect_cloud ~ ~ ~ {Tags:[sp_mob,sp_mob.net],Duration:160}

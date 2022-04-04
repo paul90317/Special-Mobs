@@ -1,1 +1,0 @@
-execute if predicate sp_mobs:rare run function sp_mobs:transform/mini_castle

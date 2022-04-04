@@ -1,1 +1,0 @@
-execute as @e[type=shulker_bullet,distance=..1] run function sp_mobs:summon/3vex

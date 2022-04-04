@@ -1,1 +1,0 @@
-execute as @e[type=#sp_mobs:friend,distance=..5] at @s run effect give @s blindness 2 0
