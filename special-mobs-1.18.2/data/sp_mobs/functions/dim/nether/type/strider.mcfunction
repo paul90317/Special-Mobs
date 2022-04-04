@@ -1,0 +1,1 @@
+execute if predicate sp_mobs:rare run function sp_mobs:summon/2blz
