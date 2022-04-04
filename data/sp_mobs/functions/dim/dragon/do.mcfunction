@@ -1,0 +1,1 @@
+execute at @a[nbt={Dimension:"minecraft:the_end"}] run function sp_mobs:skill/falling_stars

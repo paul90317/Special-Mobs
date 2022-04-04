@@ -1,0 +1,1 @@
+execute if predicate sp_mobs:cnt10_per_intv10 run scoreboard players add @s spmobs.cnt 10

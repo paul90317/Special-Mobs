@@ -1,0 +1,1 @@
+summon chest_minecart ~ ~ ~ {LootTable:"sp_mobs:chest/revenger",PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,CustomName:'{"text":"Revenger\'s Treasure","color":"gold"}'}

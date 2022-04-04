@@ -1,0 +1,1 @@
+summon chest_minecart ~ ~ ~ {LootTable:"sp_mobs:chest/berserker",PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,CustomName:'{"text":"Piglin\'s Treasure","color":"piglin"}'}
