@@ -1,1 +1,1 @@
-summon area_effect_cloud ~ ~ ~ {Tags:[sp_mob,sp_mob.net],Duration:160}
+summon area_effect_cloud ~ ~ ~ {Tags:[sp_mob.fire_rain],Duration:160}

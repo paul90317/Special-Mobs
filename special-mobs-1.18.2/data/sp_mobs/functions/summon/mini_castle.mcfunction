@@ -1,2 +1,1 @@
-summon shulker
-execute as @e[type=shulker,sort=nearest,limit=1] run function sp_mobs:transform/mini_castle
+summon shulker ~ ~ ~ {Tags:[sp_mob.wait_data,sp_mob.mini_castle]}

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ spawner{ SpawnData:{entity:{id:"minecraft:skeleton",Tags:[sp_mob.wait_data,sp_mob.miner]}}}

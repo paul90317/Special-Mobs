@@ -1,4 +1,4 @@
 kill @s[type=!player]
-summon vex ~ ~ ~ {Tags:[sp_mob],HandItems:[{id:"diamond_sword",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5},{}]}}],HandDropChances:[0f,0f],ActiveEffects:[{Id:20b,Amplifier:0,Duration:999999999}]}
-summon vex ~ ~ ~ {Tags:[sp_mob],HandItems:[{id:"diamond_sword",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5},{}]}}],HandDropChances:[0f,0f],ActiveEffects:[{Id:20b,Amplifier:0,Duration:999999999}]}
-summon vex ~ ~ ~ {Tags:[sp_mob],HandItems:[{id:"diamond_sword",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5},{}]}}],HandDropChances:[0f,0f],ActiveEffects:[{Id:20b,Amplifier:0,Duration:999999999}]}
+summon vex ~ ~ ~ {Tags:[sp_mob.ban],HandItems:[{id:"diamond_sword",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5},{}]}}],HandDropChances:[0f,0f],ActiveEffects:[{Id:20b,Amplifier:0,Duration:999999999}]}
+summon vex ~ ~ ~ {Tags:[sp_mob.ban],HandItems:[{id:"diamond_sword",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5},{}]}}],HandDropChances:[0f,0f],ActiveEffects:[{Id:20b,Amplifier:0,Duration:999999999}]}
+summon vex ~ ~ ~ {Tags:[sp_mob.ban],HandItems:[{id:"diamond_sword",Count:1b,tag:{Enchantments:[{id:"sharpness",lvl:5},{}]}}],HandDropChances:[0f,0f],ActiveEffects:[{Id:20b,Amplifier:0,Duration:999999999}]}

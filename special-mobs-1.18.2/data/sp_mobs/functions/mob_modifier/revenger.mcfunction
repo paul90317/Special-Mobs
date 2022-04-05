@@ -1,0 +1,2 @@
+data merge entity @s {CustomName:'{"text":"Fire Revenger","color": "gold"}',CustomNameVisible:1b,DeathLootTable:"sp_mobs:revenger",ActiveEffects:[{Id:11,Amplifier:1,Duration:999999}],AbsorptionAmount:20}
+tag @s add sp_mob.skill

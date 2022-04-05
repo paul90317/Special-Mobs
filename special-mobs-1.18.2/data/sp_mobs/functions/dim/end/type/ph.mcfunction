@@ -1,1 +1,1 @@
-execute if predicate sp_mobs:lengenary run function sp_mobs:summon/void_shooter
+execute if predicate sp_mobs:1/10 run function sp_mobs:summon/void_shooter

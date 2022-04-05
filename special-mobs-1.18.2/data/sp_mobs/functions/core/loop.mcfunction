@@ -7,12 +7,12 @@ execute if score #world spmobs.intv2 matches 2.. run function sp_mobs:core/loop2
 scoreboard players add #world spmobs.intv23 1
 execute if score #world spmobs.intv23 matches 23.. run scoreboard players set #world spmobs.intv23 0
 
-execute as @e[type=#sp_mobs:enimy,tag=sp_mob.ovw] at @s if entity @p[distance=..48] run function sp_mobs:dim/overworld/special
-execute as @e[type=#sp_mobs:enimy,tag=sp_mob.net] at @s if entity @p[distance=..48] run function sp_mobs:dim/nether/special
-execute as @e[type=#sp_mobs:enimy,tag=sp_mob.end] at @s if entity @p[distance=..48] run function sp_mobs:dim/end/special
+execute as @e[type=#sp_mobs:enimy,tag=sp_mob.wait_data] at @s run function sp_mobs:entity/wait_data/set_data
 
-execute if score #world spmobs.ed matches 1 as @e[type=ender_dragon] at @s run function sp_mobs:dim/dragon/special
+execute as @e[type=#sp_mobs:enimy,tag=sp_mob.skill] at @s if entity @p[distance=..48] run function sp_mobs:entity/spmobs/loop
 
-execute as @e[type=item,nbt={Item:{tag:{sp_mob:{item:1}}}}] at @s run function sp_mobs:dim/item/special
+execute if score #world spmobs.ed matches 1 as @e[type=ender_dragon] at @s run function sp_mobs:entity/dragon/loop
 
-execute as @a at @s run function sp_mobs:dim/player/loop
+execute as @e[type=item,nbt={Item:{tag:{sp_mob:{item:1}}}}] at @s run function sp_mobs:entity/item/loop
+
+execute as @a at @s run function sp_mobs:entity/player/loop

@@ -1,1 +1,1 @@
-summon armor_stand ~ ~ ~ {Tags:[sp_mob,sp_mob.end],NoBasePlate:1b,Invisible:1b,Invulnerable:1b,PortalCooldown:200,Silent:1b}
+summon armor_stand ~ ~ ~ {Tags:[sp_mob,sp_mob.falling_star],NoBasePlate:1b,Invisible:1b,Invulnerable:1b,PortalCooldown:200,Silent:1b}

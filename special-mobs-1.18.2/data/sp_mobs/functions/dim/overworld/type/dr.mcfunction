@@ -1,1 +1,1 @@
-execute if predicate sp_mobs:uncommon run function sp_mobs:summon/sailor
+execute if predicate sp_mobs:1/4 run function sp_mobs:summon/sailor

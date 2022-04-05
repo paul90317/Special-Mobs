@@ -119,3 +119,4 @@ execute if score #world spmobs.intv13 matches 12 positioned ~2.7570146864304412 
 execute if score #world spmobs.intv13 matches 12 positioned ~14.702473415114234 ~-2 ~-14.131459765866797 run function sp_mobs:summon/falling_star
 execute if score #world spmobs.intv13 matches 12 positioned ~14.26872379781253 ~-2 ~3.609748449700213 run function sp_mobs:summon/falling_star
 execute if score #world spmobs.intv13 matches 12 positioned ~-6.1776893272457265 ~-2 ~-0.8130414084995756 run function sp_mobs:summon/falling_star
+execute positioned ~ ~-2 ~ run function sp_mobs:summon/falling_star
