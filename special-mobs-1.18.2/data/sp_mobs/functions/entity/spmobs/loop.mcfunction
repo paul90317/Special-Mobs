@@ -14,7 +14,7 @@ execute if entity @s[tag=sp_mob.berserker,scores={spm.rage_value=90..}] run func
 
 # in overworld
 execute if entity @s[tag=sp_mob.barbarian,scores={spm.rage_value=90..}] run function sp_mobs:entity/spmobs/do/barbarian_score
-execute if entity @s[tag=sp_mob.miner,scores={spm.rage_value=90..}] run function sp_mobs:entity/spmobs/do/miner_score
+execute if entity @s[tag=sp_mob.miner,scores={spm.rage_value=20..}] unless block ~ ~ ~ oak_planks run function sp_mobs:entity/spmobs/do/miner_score
 execute if entity @s[tag=sp_mob.ice_shooter] run function sp_mobs:skill/snow
 execute if entity @s[tag=sp_mob.robbery] run function sp_mobs:skill/hurt/steal
 

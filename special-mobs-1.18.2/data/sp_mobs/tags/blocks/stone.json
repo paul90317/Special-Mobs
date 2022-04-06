@@ -1,6 +1,14 @@
 {
     "values": [
         "stone",
-        "deepslate"
+        "deepslate",
+        "cobblestone",
+        "cobbled_deepslate",
+        "granite",
+        "polished_granite",
+        "andesite",
+        "polished_andesite",
+        "diorite",
+        "polished_diorite"
     ]
 }

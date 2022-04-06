@@ -1,2 +1,2 @@
-function sp_mobs:skill/battle
-scoreboard players set @s spm.rage_value 0
+function sp_mobs:skill/miner
+scoreboard players remove @s spm.rage_value 20

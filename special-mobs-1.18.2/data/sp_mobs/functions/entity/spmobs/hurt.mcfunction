@@ -11,7 +11,7 @@ execute if entity @s[tag=sp_mob.berserker] run scoreboard players add @s spm.rag
 
 # in overworld
 execute if entity @s[tag=sp_mob.barbarian] run scoreboard players add @s spm.rage_value 40
-execute if entity @s[tag=sp_mob.miner] run scoreboard players add @s spm.rage_value 40
+execute if entity @s[tag=sp_mob.miner] run scoreboard players add @s spm.rage_value 50
 execute if entity @s[tag=sp_mob.black_widow] run function sp_mobs:skill/poison
 execute if entity @s[tag=sp_mob.ninja] run function sp_mobs:skill/transbk
 execute if entity @s[tag=sp_mob.sailor] run function sp_mobs:entity/spmobs/hurt/sailor
