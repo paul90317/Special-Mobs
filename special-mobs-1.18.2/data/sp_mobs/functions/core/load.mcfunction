@@ -1,7 +1,14 @@
-# Rage and Threshold
+# Rage value
 scoreboard objectives add spm.rage_value dummy
-scoreboard objectives add spmobs.cmax dummy
-scoreboard objectives add spmobs.tmp dummy
+
+# Spawn threshold
+scoreboard objectives add spm.threshold dummy
+
+# temp
+scoreboard objectives add spm.temp dummy
+
+# which dimension type
+scoreboard objectives add spm.sp.dim dummy
 
 # Timers
 scoreboard objectives add spmobs.intv10 dummy 
@@ -30,23 +37,19 @@ scoreboard objectives add spm.p.slot dummy
 
 # Initial
 # ender dragon is a special mobs
-execute store success score #world spmobs.tmp run scoreboard players get #world spmobs.ed
-execute if score #world spmobs.tmp matches 0 run scoreboard players set #world spmobs.ed 1
+execute store success score #world spm.temp run scoreboard players get #world spmobs.ed
+execute if score #world spm.temp matches 0 run scoreboard players set #world spmobs.ed 1
 
 # mobs with name tag can spawn special mobs
-execute store success score #world spmobs.tmp run scoreboard players get #world spmobs.nsp
-execute if score #world spmobs.tmp matches 0 run scoreboard players set #world spmobs.nsp 0
+execute store success score #world spm.temp run scoreboard players get #world spmobs.nsp
+execute if score #world spm.temp matches 0 run scoreboard players set #world spmobs.nsp 0
 
 # special mobs spawn naturely
-execute store success score #world spmobs.tmp run scoreboard players get #world spmobs.spnt
-execute if score #world spmobs.tmp matches 0 run scoreboard players set #world spmobs.spnt 1
+execute store success score #world spm.temp run scoreboard players get #world spmobs.spnt
+execute if score #world spm.temp matches 0 run scoreboard players set #world spmobs.spnt 1
 
-execute store success score #world spmobs.tmp run scoreboard players get #overworld spmobs.cmax
-execute if score #world spmobs.tmp matches 0 run scoreboard players set #overworld spmobs.cmax 200
-execute store success score #world spmobs.tmp run scoreboard players get #nether spmobs.cmax
-execute if score #world spmobs.tmp matches 0 run scoreboard players set #nether spmobs.cmax 200
-execute store success score #world spmobs.tmp run scoreboard players get #end spmobs.cmax
-execute if score #world spmobs.tmp matches 0 run scoreboard players set #end spmobs.cmax 300
+execute store success score #world spm.temp run scoreboard players get #world spm.threshold
+execute if score #world spm.temp matches 0 run scoreboard players set #world spm.threshold 200
 
 # Start
 schedule function sp_mobs:config/gui_to_everyone 1s
