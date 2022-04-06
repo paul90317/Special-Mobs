@@ -8,12 +8,12 @@ execute if entity @s[tag=sp_mob.alien] run function sp_mobs:entity/spmobs/do/ali
 
 # in the nether
 execute if entity @s[tag=sp_mob.black_knight] run function sp_mobs:entity/spmobs/do/black_knight
-execute if entity @s[tag=sp_mob.revenger,scores={spmobs.cnt=120..}] run function sp_mobs:entity/spmobs/do/revenger
-execute if entity @s[tag=sp_mob.bastion_guard,scores={spmobs.cnt=80..}] run function sp_mobs:entity/spmobs/do/bastion_guard
-execute if entity @s[tag=sp_mob.berserker,scores={spmobs.cnt=90..}] run function sp_mobs:entity/spmobs/do/berserker
+execute if entity @s[tag=sp_mob.revenger,scores={spm.rage_value=120..}] run function sp_mobs:entity/spmobs/do/revenger
+execute if entity @s[tag=sp_mob.bastion_guard,scores={spm.rage_value=80..}] run function sp_mobs:entity/spmobs/do/bastion_guard
+execute if entity @s[tag=sp_mob.berserker,scores={spm.rage_value=90..}] run function sp_mobs:entity/spmobs/do/berserker
 
 # in overworld
-execute if entity @s[tag=sp_mob.barbarian,scores={spmobs.cnt=90..}] run function sp_mobs:entity/spmobs/do/barbarian_score
-execute if entity @s[tag=sp_mob.miner,scores={spmobs.cnt=90..}] run function sp_mobs:entity/spmobs/do/miner_score
+execute if entity @s[tag=sp_mob.barbarian,scores={spm.rage_value=90..}] run function sp_mobs:entity/spmobs/do/barbarian_score
+execute if entity @s[tag=sp_mob.miner,scores={spm.rage_value=90..}] run function sp_mobs:entity/spmobs/do/miner_score
 execute if entity @s[tag=sp_mob.ice_shooter] run function sp_mobs:skill/snow
 execute if entity @s[tag=sp_mob.robbery] run function sp_mobs:skill/hurt/steal
