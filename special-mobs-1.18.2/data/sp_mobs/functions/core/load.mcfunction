@@ -1,5 +1,5 @@
 # Rage and Threshold
-scoreboard objectives add spmobs.cnt dummy
+scoreboard objectives add spm.rage_value dummy
 scoreboard objectives add spmobs.cmax dummy
 scoreboard objectives add spmobs.tmp dummy
 

@@ -1,3 +1,3 @@
-scoreboard players add @s spmobs.cnt 40
-execute if score @s spmobs.cnt matches 70.. run summon pufferfish
-scoreboard players set @s[scores={spmobs.cnt=100..}] spmobs.cnt 0
+scoreboard players add @s spm.rage_value 40
+execute if score @s spm.rage_value matches 70.. run summon pufferfish
+scoreboard players set @s[scores={spm.rage_value=100..}] spm.rage_value 0
