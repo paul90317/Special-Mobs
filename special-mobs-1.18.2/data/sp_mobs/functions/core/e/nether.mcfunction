@@ -1,1 +1,1 @@
-execute if score @s spmobs.cnt >= #nether spmobs.cmax unless entity @p[distance=..16] run function sp_mobs:dim/nether/normal
+execute if score @s spm.rage_value >= #nether spmobs.cmax unless entity @p[distance=..16] run function sp_mobs:dim/nether/normal

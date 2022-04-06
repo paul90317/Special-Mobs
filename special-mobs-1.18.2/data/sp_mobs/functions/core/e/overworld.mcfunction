@@ -1,1 +1,1 @@
-execute if score @s spmobs.cnt >= #overworld spmobs.cmax unless entity @p[distance=..16] run function sp_mobs:dim/overworld/normal
+execute if score @s spm.rage_value >= #overworld spmobs.cmax unless entity @p[distance=..16] run function sp_mobs:dim/overworld/normal
