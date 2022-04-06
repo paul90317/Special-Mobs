@@ -2,4 +2,4 @@ data merge entity @s {AbsorptionAmount:20,CustomName:'{"text":"Mini Castle","col
 tag @s add sp_mob.skill
 tag @s add sp_mob.mini_castle
 
-function #sp_mobs:mod_modifier/mini_castle
+function #spm_api:mob_modifier/mini_castle
