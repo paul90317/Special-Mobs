@@ -17,3 +17,6 @@ execute if entity @s[tag=sp_mob.barbarian,scores={spm.rage_value=90..}] run func
 execute if entity @s[tag=sp_mob.miner,scores={spm.rage_value=90..}] run function sp_mobs:entity/spmobs/do/miner_score
 execute if entity @s[tag=sp_mob.ice_shooter] run function sp_mobs:skill/snow
 execute if entity @s[tag=sp_mob.robbery] run function sp_mobs:skill/hurt/steal
+
+# special mobs api
+function #spm_api:skill/on_tick

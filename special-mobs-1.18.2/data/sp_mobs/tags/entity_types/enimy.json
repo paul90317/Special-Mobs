@@ -12,6 +12,7 @@
         "stray",
         "phantom",
         "strider",
-        "piglin_brute"
+        "piglin_brute",
+        "#spm_api:special_mob"
     ]
 }

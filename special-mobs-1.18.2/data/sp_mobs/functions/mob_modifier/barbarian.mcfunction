@@ -1,5 +1,4 @@
 data merge entity @s {CustomName:'{"text":"Barbarian","color":"green"}',CustomNameVisible:1b,CanBreakDoors:1b,LeftHanded:1b,DeathLootTable:"sp_mobs:barbarian"}
-tag @s add sp_mob.skill
 
 item replace entity @s weapon.mainhand with stone_axe
 execute if predicate sp_mobs:1/3 run item replace entity @s weapon.mainhand with iron_axe

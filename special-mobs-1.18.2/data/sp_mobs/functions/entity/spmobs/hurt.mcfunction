@@ -15,3 +15,6 @@ execute if entity @s[tag=sp_mob.miner] run scoreboard players add @s spm.rage_va
 execute if entity @s[tag=sp_mob.black_widow] run function sp_mobs:skill/poison
 execute if entity @s[tag=sp_mob.ninja] run function sp_mobs:skill/transbk
 execute if entity @s[tag=sp_mob.sailor] run function sp_mobs:entity/spmobs/hurt/sailor
+
+# special mobs api
+function #spm_api:skill/on_hurt

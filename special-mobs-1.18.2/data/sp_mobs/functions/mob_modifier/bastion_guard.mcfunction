@@ -1,5 +1,4 @@
 data merge entity @s {CustomName:'{"text":"Bastion Guard","color":"gray"}',DeathLootTable:"sp_mobs:bastion_guard",HandItems:[{Count:1,id:"stone_axe"},{}],ArmorItems:[{Count:1,id:"netherite_boots"},{Count:1,id:"chainmail_leggings"},{Count:1,id:"minecraft:netherite_chestplate"},{Count:1b,id:"minecraft:chiseled_polished_blackstone"}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f]}
-tag @s add sp_mob.skill
 
 execute if predicate sp_mobs:1/2 run item replace entity @s armor.head with lodestone
 

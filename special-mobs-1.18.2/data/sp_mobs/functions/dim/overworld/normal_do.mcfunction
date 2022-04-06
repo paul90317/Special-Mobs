@@ -5,4 +5,7 @@ execute if entity @s[type=drowned] run function sp_mobs:dim/overworld/type/dr
 execute if entity @s[type=husk] run function sp_mobs:dim/overworld/type/husk
 execute if entity @s[type=stray] run function sp_mobs:dim/overworld/type/stray
 
+# special mobs api
+function #spm_api:nature_spawn/in_overworld
+
 execute if score #world spmobs.once matches 1 run tag @s add sp_mob.ban
