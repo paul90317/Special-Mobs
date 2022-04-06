@@ -1,3 +1,3 @@
-execute at @a[nbt={Dimension:"minecraft:overworld"},limit=1] as @e[type=#sp_mobs:enimy,tag=!sp_mob.ban,tag=!sp_mob.skill] at @s if entity @p[distance=..48] run function sp_mobs:core/e/overworld
-execute at @a[nbt={Dimension:"minecraft:the_nether"},limit=1] as @e[type=#sp_mobs:enimy,tag=!sp_mob.ban,tag=!sp_mob.skill] at @s if entity @p[distance=..48] run function sp_mobs:core/e/nether
-execute at @a[nbt={Dimension:"minecraft:the_end"},limit=1] as @e[type=#sp_mobs:enimy,tag=!sp_mob.ban,tag=!sp_mob.skill] at @s if entity @p[distance=..48] run function sp_mobs:core/e/end
+execute as @e[type=#sp_mobs:enimy,tag=!sp_mob.ban,tag=!sp_mob.skill] at @s if entity @p[distance=..48,nbt={Dimension:"minecraft:overworld"}] run function sp_mobs:core/e/overworld
+execute as @e[type=#sp_mobs:enimy,tag=!sp_mob.ban,tag=!sp_mob.skill] at @s if entity @p[distance=..48,nbt={Dimension:"minecraft:the_nether"}] run function sp_mobs:core/e/nether
+execute as @e[type=#sp_mobs:enimy,tag=!sp_mob.ban,tag=!sp_mob.skill] at @s if entity @p[distance=..48,nbt={Dimension:"minecraft:the_end"}] run function sp_mobs:core/e/end

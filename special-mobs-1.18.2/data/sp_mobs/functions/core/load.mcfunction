@@ -17,7 +17,6 @@ scoreboard players set #world spmobs.intv23 0
 # Config
 scoreboard objectives add spmobs.ed dummy 
 scoreboard objectives add spmobs.nsp dummy
-scoreboard objectives add spmobs.once dummy 
 scoreboard objectives add spmobs.spnt dummy
 
 # Player
@@ -37,10 +36,6 @@ execute if score #world spmobs.tmp matches 0 run scoreboard players set #world s
 # mobs with name tag can spawn special mobs
 execute store success score #world spmobs.tmp run scoreboard players get #world spmobs.nsp
 execute if score #world spmobs.tmp matches 0 run scoreboard players set #world spmobs.nsp 0
-
-# a mob can only spawn special once
-execute store success score #world spmobs.tmp run scoreboard players get #world spmobs.once
-execute if score #world spmobs.tmp matches 0 run scoreboard players set #world spmobs.once 0
 
 # special mobs spawn naturely
 execute store success score #world spmobs.tmp run scoreboard players get #world spmobs.spnt
