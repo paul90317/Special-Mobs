@@ -8,9 +8,9 @@ execute if entity @s[tag=sp_mob.alien] run function sp_mobs:entity/spmobs/do/ali
 
 # in the nether
 execute if entity @s[tag=sp_mob.black_knight] run function sp_mobs:entity/spmobs/do/black_knight
-execute if entity @s[tag=sp_mob.revenger,scores={spmobs.cnt=90..}] run function sp_mobs:summon/2blz
-execute if entity @s[tag=sp_mob.bastion_guard,scores={spmobs.cnt=90..}] run function sp_mobs:entity/spmobs/do/bastion_guard
-execute if entity @s[tag=sp_mob.berserker,scores={spmobs.cnt=90..}] run function sp_mobs:skill/damage
+execute if entity @s[tag=sp_mob.revenger,scores={spmobs.cnt=120..}] run function sp_mobs:entity/spmobs/do/revenger
+execute if entity @s[tag=sp_mob.bastion_guard,scores={spmobs.cnt=80..}] run function sp_mobs:entity/spmobs/do/bastion_guard
+execute if entity @s[tag=sp_mob.berserker,scores={spmobs.cnt=90..}] run function sp_mobs:entity/spmobs/do/berserker
 
 # in overworld
 execute if entity @s[tag=sp_mob.barbarian,scores={spmobs.cnt=90..}] run function sp_mobs:entity/spmobs/do/barbarian_score

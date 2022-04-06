@@ -1,2 +1,1 @@
-execute if predicate sp_mobs:1/4 run scoreboard players add @s spmobs.cnt 10
-execute if entity @s[tag=!sp_mob.ban,tag=!sp_mob.skill] if score @s spmobs.cnt >= #nether spmobs.cmax unless entity @p[distance=..16] run function sp_mobs:dim/nether/normal
+execute if score @s spmobs.cnt >= #nether spmobs.cmax unless entity @p[distance=..16] run function sp_mobs:dim/nether/normal

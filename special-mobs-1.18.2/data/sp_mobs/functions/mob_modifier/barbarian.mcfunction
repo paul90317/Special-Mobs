@@ -1,2 +1,24 @@
-data merge entity @s {CustomName:'{"text":"Barbarian","color":"green"}',CustomNameVisible:1b,CanBreakDoors:1b,LeftHanded:1b,HandItems:[{Count:1,id:"minecraft:stone_axe",tag:{Enchantments:[{id:"minecraft:efficiency",lvl:1}]}},{Count:1b,id:"minecraft:iron_sword",tag:{Enchantments:[{id:"minecraft:sweeping",lvl:1}]}}],ArmorItems:[{Count:1,id:"leather_boots",tag:{display:{color:1711404}}},{Count:1,id:"minecraft:chainmail_leggings"},{Count:1,id:"minecraft:leather_chestplate",tag:{Enchantments:[{id:"protection",lvl:2}]}},{Count:1,id:"minecraft:iron_helmet"}],ActiveEffects:[{Id:1,Amplifier:1,Duration:999999},{Id:11,Amplifier:0,Duration:999999999}],DeathLootTable:"sp_mobs:barbarian"}
+data merge entity @s {CustomName:'{"text":"Barbarian","color":"green"}',CustomNameVisible:1b,CanBreakDoors:1b,LeftHanded:1b,DeathLootTable:"sp_mobs:barbarian"}
 tag @s add sp_mob.skill
+
+item replace entity @s weapon.mainhand with stone_axe
+execute if predicate sp_mobs:1/3 run item replace entity @s weapon.mainhand with iron_axe
+
+item replace entity @s armor.head with iron_helmet
+execute if predicate sp_mobs:1/2 run item replace entity @s armor.head with azalea
+
+item replace entity @s armor.chest with iron_chestplate
+execute if predicate sp_mobs:1/2 run item replace entity @s armor.chest with leather_chestplate{display:{color:1260658}}
+execute if predicate sp_mobs:1/3 run item replace entity @s armor.chest with chainmail_chestplate
+
+item replace entity @s armor.feet with leather_boots{display:{color:592204}}
+
+item replace entity @s armor.legs with leather_leggings
+execute if predicate sp_mobs:1/2 run item replace entity @s armor.legs with chainmail_leggings
+execute if predicate sp_mobs:1/3 run item replace entity @s armor.legs with leather_leggings{display:{color:5770298}}
+
+execute if predicate sp_mobs:1/2 run item replace entity @s weapon.offhand with stone_axe
+execute if predicate sp_mobs:1/3 run item replace entity @s weapon.offhand with stone_sword
+execute if predicate sp_mobs:1/4 run item replace entity @s weapon.offhand with shield
+
+function #sp_mobs:mod_modifier/barbarian

@@ -1,5 +1,7 @@
 scoreboard players set #world spmobs.intv10 0
 
+execute as @e[type=#sp_mobs:enimy] at @s if predicate sp_mobs:1/4 if entity @p[distance=..48] run scoreboard players add @s spmobs.cnt 10
+
 execute if score #world spmobs.spnt matches 1 run function sp_mobs:core/spawn
 
 execute if score #world spmobs.ed matches 1 if predicate sp_mobs:1/4 run scoreboard players add @e[type=ender_dragon] spmobs.cnt 10
