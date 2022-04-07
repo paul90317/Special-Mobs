@@ -7,9 +7,6 @@ scoreboard objectives add spm.threshold dummy
 # temp
 scoreboard objectives add spm.temp dummy
 
-# which dimension type
-scoreboard objectives add spm.sp.dim dummy
-
 # Timers
 scoreboard objectives add spmobs.intv10 dummy 
 scoreboard objectives add spmobs.intv13 dummy
