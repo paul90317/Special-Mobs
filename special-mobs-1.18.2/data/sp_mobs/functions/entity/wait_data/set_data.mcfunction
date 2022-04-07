@@ -15,6 +15,8 @@ execute if entity @s[tag=sp_mob.ninja] run function sp_mobs:mob_modifier/ninja
 execute if entity @s[tag=sp_mob.revenger] run function sp_mobs:mob_modifier/revenger
 execute if entity @s[tag=sp_mob.robbery] run function sp_mobs:mob_modifier/robbery
 execute if entity @s[tag=sp_mob.sailor] run function sp_mobs:mob_modifier/sailor
+execute if entity @s[tag=sp_mob.ph] run function sp_mobs:mob_modifier/ph
+execute if entity @s[tag=sp_mob.void_shooter] run function sp_mobs:mob_modifier/void_shooter
 
 # special mobs api
 function #spm_api:on_data
