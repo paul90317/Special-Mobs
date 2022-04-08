@@ -7,4 +7,6 @@ execute if predicate sp_mobs:1/2 run item replace entity @s weapon.mainhand with
 
 execute if predicate sp_mobs:1/2 if entity @s[nbt=!{HandItems:[{id:"minecraft:bow"}]}] run item replace entity @s weapon.offhand with shield{BlockEntityTag:{Base:7,Patterns:[{Pattern:"pig",Color:8}]}}
 
+effect give @s fire_resistance 999999 0
+
 function #spm_api:wait_data/spm_append/bastion_guard
