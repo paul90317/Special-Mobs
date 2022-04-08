@@ -1,6 +1,11 @@
 {
 	"pack": {
 		"pack_format": 9,
-		"description": "special mobs and weapons, 1.18.2 v4.2, by paul90317"
+		"description": [
+			{"text":"Special Mobs and Weapons\n","color":"red"},
+			{"text":"v5.0-lib-1.0 ","color": "gray"},
+			{"text":"by ","color":"dark_purple"},
+			{"text":"paul90317 ","color":"light_purple"}
+		]
 	}
 }
