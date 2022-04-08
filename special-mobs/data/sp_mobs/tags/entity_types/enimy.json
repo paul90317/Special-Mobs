@@ -13,6 +13,6 @@
         "phantom",
         "strider",
         "piglin_brute",
-        "#spm_api:special_mob"
+        "#spm_dpi:special_mob"
     ]
 }

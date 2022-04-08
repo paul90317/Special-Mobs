@@ -4,4 +4,4 @@ execute if predicate sp_mobs:1/2 run item replace entity @s armor.head with bee_
 execute if predicate sp_mobs:1/2 run item replace entity @s weapon.offhand with shield{BlockEntityTag:{Base:13,Patterns:[{Pattern:"cre",Color:15}]}}
 execute if predicate sp_mobs:1/2 run item replace entity @s weapon.mainhand with wooden_axe
 
-function #spm_api:wait_data/spm_append/robbery
+function #spm_dpi:wait_data/spm_append/robbery
