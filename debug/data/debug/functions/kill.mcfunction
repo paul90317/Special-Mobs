@@ -1,1 +1,1 @@
-kill @e[type=!player]
+tp @e[type=!player] ~ ~-1000000 ~

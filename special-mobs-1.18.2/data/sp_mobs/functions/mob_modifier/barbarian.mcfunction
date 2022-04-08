@@ -20,4 +20,4 @@ execute if predicate sp_mobs:1/2 run item replace entity @s weapon.offhand with 
 execute if predicate sp_mobs:1/3 run item replace entity @s weapon.offhand with stone_sword
 execute if predicate sp_mobs:1/4 run item replace entity @s weapon.offhand with shield
 
-function #spm_api:mob_modifier/barbarian
+function #spm_api:wait_data/spm_append/barbarian
