@@ -1,1 +1,2 @@
-summon zombie ~ ~ ~ {Tags:[sp_mob.wait_data,sp_mob.barbarian]}
+execute if predicate sp_mobs:1/2 run summon zombie ~ ~ ~ {Tags:[sp_mob.wait_data,sp_mob.barbarian]}
+execute if predicate sp_mobs:1/3 run summon skeleton ~ ~ ~ {Tags:[sp_mob.wait_data,sp_mob.barbarian]}
