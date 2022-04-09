@@ -1,0 +1,2 @@
+summon skeleton ~ ~ ~ {HandItems:[{id:"iron_sword",Count:1b}],ArmorItems:[{id:"iron_boots",Count:1b},{},{},{id:"iron_helmet",Count:1b}],Tags:[sp_mob.ban],DeathLootTable:"sp_mobs:exp",ActiveEffects:[{Id:20,Amplifier:0,Duration:999999999}]}
+particle soul_fire_flame ~ ~0.5 ~ 0 0 0 0.05 100

@@ -5,10 +5,6 @@
                 "min": 2,
                 "max": 4
             },
-            "bonus_rolls": {
-                "min": 1.7,
-                "max": 5.1
-            },
             "entries": [
                 {
                     "type": "loot_table",

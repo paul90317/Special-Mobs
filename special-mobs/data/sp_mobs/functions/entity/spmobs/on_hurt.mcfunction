@@ -8,6 +8,9 @@ execute if entity @s[tag=sp_mob.black_knight] run function sp_mobs:entity/spmobs
 execute if entity @s[tag=sp_mob.bastion_guard] run scoreboard players add @s spm.rage_value 40
 execute if entity @s[tag=sp_mob.revenger] run function sp_mobs:entity/spmobs/hurt/revenger
 execute if entity @s[tag=sp_mob.berserker] run scoreboard players add @s spm.rage_value 35
+execute if entity @s[tag=sp_mob.warp_enderman] run function sp_mobs:entity/spmobs/hurt/warp_enderman
+execute if entity @s[tag=sp_mob.skeleton_lord] run function sp_mobs:entity/spmobs/hurt/skeleton_lord/do
+execute if entity @s[tag=sp_mob.crimson_aboriginal] run function sp_mobs:entity/spmobs/hurt/crimson_aboriginal/do
 
 # in overworld
 execute if entity @s[tag=sp_mob.barbarian] run scoreboard players add @s spm.rage_value 40

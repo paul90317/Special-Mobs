@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ netherrack if predicate sp_mobs:1/4 run function sp_mobs:summon/fire_knight

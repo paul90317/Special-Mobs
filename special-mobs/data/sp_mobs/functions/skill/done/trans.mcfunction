@@ -1,12 +1,3 @@
 tp ^ ^ ^3
-particle ambient_entity_effect ~ ~1 ~
-particle ambient_entity_effect ~1 ~ ~1
-particle ambient_entity_effect ^1 ^ ^-1
-particle ambient_entity_effect ^ ^1 ^1
-particle ambient_entity_effect ~-1 ~1 ~-1
-particle ambient_entity_effect ^-1 ^1 ^1
-particle ambient_entity_effect ~1 ~2 ~1
-particle ambient_entity_effect ^1 ^2 ^-1
-particle ambient_entity_effect ^ ^2 ^1
-particle ambient_entity_effect ~-1 ~2 ~-1
+particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 1 0 0.1 25
 playsound entity.enderman.teleport ambient @a

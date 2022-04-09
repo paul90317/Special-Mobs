@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^-2 if block ~ ~1 ~ #sp_mobs:space positioned ^ ^ ^2 run function sp_mobs:skill/done/tpbk

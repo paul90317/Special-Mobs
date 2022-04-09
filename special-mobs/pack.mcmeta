@@ -3,7 +3,7 @@
 		"pack_format": 9,
 		"description": [
 			{"text":"spm dpi: ","color": "yellow"},
-			{"text":"1.0","color":"white"},
+			{"text":"1.1\n","color":"white"},
 			{"text":"Author: ","color":"dark_purple"},
 			{"text":"paul90317 ","color":"light_purple"}
 		]

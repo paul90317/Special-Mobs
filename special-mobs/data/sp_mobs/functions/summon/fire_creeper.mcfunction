@@ -1,0 +1,1 @@
+summon creeper ~ ~ ~ {Tags:[sp_mob.wait_data,sp_mob.fire_creeper]}

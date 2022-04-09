@@ -1,0 +1,2 @@
+execute if score @s spm.rage_value matches 110.. run function sp_mobs:entity/spmobs/do/skeleton_lord/summon
+execute as @e[type=#sp_mobs:proj,distance=..3] at @s run function sp_mobs:entity/spmobs/do/skeleton_lord/kill_arrow

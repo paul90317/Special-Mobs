@@ -13,6 +13,9 @@
         "phantom",
         "strider",
         "piglin_brute",
-        "#spm_dpi:special_mob"
+        "#spm_dpi:special_mob",
+        "creeper",
+        "zombified_piglin",
+        "magma_cube"
     ]
 }

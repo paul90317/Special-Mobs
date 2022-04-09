@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ basalt if predicate sp_mobs:1/3 run function sp_mobs:summon/soul_falcon
