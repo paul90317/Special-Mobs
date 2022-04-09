@@ -1,6 +1,6 @@
 {
     "values": [
-        "sp_mobs:entity/spmobs/on_hurt"
+        "sp_mobs:entity/spm/on_hurt"
     ],
     "replace": false
 }

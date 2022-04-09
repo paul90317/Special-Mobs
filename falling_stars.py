@@ -1,4 +1,4 @@
-#execute if score #world spmobs.intv13 matches 1 positioned ~ ~ ~ run function sp_mobs:summon/falling_star
+#execute if score #world spm.intv.13 matches 1 positioned ~ ~ ~ run function sp_mobs:summon/falling_star
 
 from random import *
 from math import *
@@ -10,4 +10,4 @@ def rd_sqare():
 
 for i in range(13):
     for t in range(randint(4,6)):
-        print("execute if score #world spmobs.intv13 matches {2} positioned ~{0} ~-2 ~{1} run function sp_mobs:summon/falling_star".format(*rd_sqare(),i))
+        print("execute if score #world spm.intv.13 matches {2} positioned ~{0} ~-2 ~{1} run function sp_mobs:summon/falling_star".format(*rd_sqare(),i))
