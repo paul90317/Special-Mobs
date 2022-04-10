@@ -1,0 +1,1 @@
+execute if predicate spm_user:spawn_rate/revenger run summon blaze ~ ~ ~ {Tags:[sp_mob.ban],DeathLootTable:"sp_mobs:other/blaze_in_lava",ActiveEffects:[{Id:20b,Amplifier:0,Duration:999999999}]}

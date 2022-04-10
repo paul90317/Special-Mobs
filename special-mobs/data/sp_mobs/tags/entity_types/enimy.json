@@ -15,6 +15,7 @@
         "#spm_dpi:special_mob",
         "creeper",
         "zombified_piglin",
-        "magma_cube"
+        "magma_cube",
+        "strider"
     ]
 }
