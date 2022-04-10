@@ -1,6 +1,6 @@
 # in the end
 execute if entity @s[tag=sp_mob.void_shooter] run function sp_mobs:entity/spm/hurt/void_shooter
-execute if entity @s[tag=sp_mob.mini_castle] run function sp_mobs:skill/makelev
+execute if entity @s[tag=sp_mob.mini_castle] run function sp_mobs:entity/spm/hurt/mini_castle
 execute if entity @s[tag=sp_mob.alien] run function sp_mobs:entity/spm/hurt/alien
 
 # in the nether
