@@ -1,2 +1,2 @@
-execute if block ~ ~-1 ~ #sp_mobs:soul if predicate sp_mobs:1/8 run function sp_mobs:summon/skeleton_lord
-execute if block ~ ~-1 ~ #sp_mobs:soul if predicate sp_mobs:1/4 run function sp_mobs:summon/soul_falcon
+execute if block ~ ~-1 ~ #sp_mobs:soul if predicate spm_user:spawn_rate/skeleton_lord run function sp_mobs:summon/skeleton_lord
+execute if block ~ ~-1 ~ #sp_mobs:soul if predicate spm_user:spawn_rate/soul_falcon run function sp_mobs:summon/soul_falcon

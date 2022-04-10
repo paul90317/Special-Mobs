@@ -1,1 +1,1 @@
-execute if predicate sp_mobs:1/5 run function sp_mobs:summon/mini_castle
+execute if predicate spm_user:spawn_rate/mini_castle run function sp_mobs:summon/mini_castle

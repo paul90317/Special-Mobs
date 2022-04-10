@@ -1,1 +1,1 @@
-execute if predicate sp_mobs:1/4 run function sp_mobs:summon/sailor
+execute if predicate spm_user:spawn_rate/sailor run function sp_mobs:summon/sailor

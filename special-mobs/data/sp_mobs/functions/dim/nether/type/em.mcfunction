@@ -1,1 +1,1 @@
-execute if block ~ ~-1 ~ warped_nylium if predicate sp_mobs:1/5 run function sp_mobs:summon/warp_enderman
+execute if block ~ ~-1 ~ warped_nylium if predicate spm_user:spawn_rate/warp_enderman run function sp_mobs:summon/warp_enderman
