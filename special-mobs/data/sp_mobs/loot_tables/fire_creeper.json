@@ -20,7 +20,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{sp_mob:{item:1,inv:1}}"
+                            "tag": "{sp_item:{is:1,inv:1}}"
                         }
                     ]
                 }
@@ -46,7 +46,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{sp_mob:{item:1,inv:1,np:1}}"
+                            "tag": "{sp_item:{is:1,inv:1,np:1}}"
                         }
                     ]
                 }
@@ -82,7 +82,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{sp_mob:{item:1,id:fire_bomb}}"
+                            "tag": "{sp_item:{is:1,id:fire_bomb}}"
                         }
                     ]
                 }

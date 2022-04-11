@@ -96,7 +96,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sp_mob:{item:1,what:miner,id:chest}}"
+                            "tag":"{sp_item:{is:1,what:miner,id:chest}}"
                         }
                     ],
                     "conditions": [

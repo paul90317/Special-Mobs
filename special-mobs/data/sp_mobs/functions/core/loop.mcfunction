@@ -13,6 +13,6 @@ execute as @e[type=#sp_mobs:enimy,tag=sp_mob.skill] at @s if entity @p[distance=
 
 execute if score #world spm.config.ender_dragon matches 1 as @e[type=ender_dragon] at @s run function sp_mobs:entity/dragon/loop
 
-execute as @e[type=item,nbt={Item:{tag:{sp_mob:{item:1}}}}] at @s run function sp_mobs:entity/item/loop
+execute as @e[type=item,nbt={Item:{tag:{sp_item:{is:1}}}}] at @s run function sp_mobs:entity/item/loop
 
 execute as @a at @s run function sp_mobs:entity/player/loop

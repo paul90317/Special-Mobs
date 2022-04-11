@@ -1,0 +1,1 @@
+setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"enderman",Tags:[sp_mob.wait_data,sp_mob.warp_enderman]}}}

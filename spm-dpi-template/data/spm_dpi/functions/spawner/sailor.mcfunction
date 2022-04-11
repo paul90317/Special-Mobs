@@ -1,0 +1,1 @@
+setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"drowned",Tags:[sp_mob.wait_data,sp_mob.sailor]}}}

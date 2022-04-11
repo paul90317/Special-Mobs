@@ -17,7 +17,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{sp_mob:{item:1,id:chest,what:berserker}}"
+                            "tag": "{sp_item:{is:1,id:chest,what:berserker}}"
                         }
                     ]
                 }
