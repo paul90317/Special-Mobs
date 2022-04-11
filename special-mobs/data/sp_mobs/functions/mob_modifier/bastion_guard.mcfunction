@@ -9,4 +9,5 @@ execute if predicate sp_mobs:1/2 if entity @s[nbt=!{HandItems:[{id:"minecraft:bo
 
 effect give @s fire_resistance 999999 0
 
-function #spm_dpi:wait_data/spm_append/bastion_guard
+function #spm_dpi:wait_data/item_replace/bastion_guard
+function #spm_dpi:wait_data/item_modify/bastion_guard
