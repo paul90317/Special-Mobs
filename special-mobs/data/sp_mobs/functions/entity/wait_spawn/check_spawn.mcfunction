@@ -1,4 +1,4 @@
-scoreboard players set @s spm.rage_value 0
+scoreboard players reset @s spm.rage_value
 
 execute store success score @s spm.temp run data get entity @s CustomName
 execute if score #world spm.config.spaw_with_name_tag matches 1 run scoreboard players set @s spm.temp 0

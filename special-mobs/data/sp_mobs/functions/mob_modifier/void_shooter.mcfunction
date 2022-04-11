@@ -5,5 +5,5 @@ item replace entity @s weapon.mainhand with bow
 item replace entity @s weapon.offhand with tipped_arrow{CustomPotionEffects:[{Id:25b,Amplifier:3b,Duration:100}]}
 effect give @s levitation 999999 0
 
-function #spm_dpi:wait_data/item_replace/void_shooter
-function #spm_dpi:wait_data/item_modify/void_shooter
+function #spm_dpi:mob/item_replace/void_shooter
+function #spm_dpi:mob/item_modify/void_shooter

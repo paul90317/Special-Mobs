@@ -1,3 +1,7 @@
+# Reset scoreboard
+scoreboard objectives remove spm.rage_value
+scoreboard objectives remove spm.temp
+
 # Rage value
 scoreboard objectives add spm.rage_value dummy
 

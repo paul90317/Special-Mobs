@@ -19,5 +19,5 @@ execute if predicate sp_mobs:1/3 run item replace entity @s armor.legs with leat
 execute if predicate sp_mobs:1/2 run item replace entity @s weapon.offhand with stone_axe
 execute if predicate sp_mobs:1/3 run item replace entity @s weapon.offhand with stone_sword
 
-function #spm_dpi:wait_data/item_replace/barbarian
-function #spm_dpi:wait_data/item_modify/barbarian
+function #spm_dpi:mob/item_replace/barbarian
+function #spm_dpi:mob/item_modify/barbarian

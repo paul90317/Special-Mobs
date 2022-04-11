@@ -9,5 +9,5 @@ item replace entity @s armor.feet with iron_boots
 item replace entity @s weapon.mainhand with golden_sword
 execute if predicate sp_mobs:1/2 run item replace entity @s weapon.mainhand with stone_sword
 
-function #spm_dpi:wait_data/item_replace/fire_knight
-function #spm_dpi:wait_data/item_modify/fire_knight
+function #spm_dpi:mob/item_replace/fire_knight
+function #spm_dpi:mob/item_modify/fire_knight
