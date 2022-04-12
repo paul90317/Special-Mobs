@@ -1,1 +1,0 @@
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"minecraft:zombified_piglin",Tags:[sp_mob.wait_data,sp_mob.fire_knight]}}}

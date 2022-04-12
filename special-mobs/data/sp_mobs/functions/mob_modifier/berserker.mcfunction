@@ -2,5 +2,5 @@ data merge entity @s {IsImmuneToZombification:1b,DeathLootTable:"sp_mobs:berserk
 
 effect give @s fire_resistance 999999 0
 
-function #spm_dpi:mob/item_replace/berserker
-function #spm_dpi:mob/item_modify/berserker
+function #spm_dpi:mob/rep/berserker
+function #spm_dpi:mob/mdf/berserker

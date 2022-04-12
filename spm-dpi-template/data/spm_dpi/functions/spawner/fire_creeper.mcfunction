@@ -1,1 +1,0 @@
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"creeper",Tags:[sp_mob.wait_data,sp_mob.fire_creeper]}}}

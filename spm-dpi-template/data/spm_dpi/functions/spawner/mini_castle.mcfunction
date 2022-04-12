@@ -1,1 +1,0 @@
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"shulker",Tags:[sp_mob.wait_data,sp_mob.mini_castle]}}}

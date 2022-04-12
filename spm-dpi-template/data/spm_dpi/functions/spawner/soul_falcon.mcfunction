@@ -1,1 +1,0 @@
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"phantom",Tags:[sp_mob.wait_data,sp_mob.soul_falcon]}}}

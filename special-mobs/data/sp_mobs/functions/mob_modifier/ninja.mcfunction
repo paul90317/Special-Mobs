@@ -4,5 +4,5 @@ execute if predicate sp_mobs:1/3 run item replace entity @s weapon.mainhand with
 execute if predicate sp_mobs:1/2 run item replace entity @s armor.head with oak_sapling
 execute if predicate sp_mobs:1/2 run item replace entity @s armor.legs with chainmail_leggings
 
-function #spm_dpi:mob/item_replace/ninja
-function #spm_dpi:mob/item_modify/ninja
+function #spm_dpi:mob/rep/ninja
+function #spm_dpi:mob/mdf/ninja

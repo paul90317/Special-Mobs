@@ -1,1 +1,0 @@
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"phantom",Tags:[sp_mob.wait_data,sp_mob.ender_phantom],Passengers:[{id:"skeleton",Tags:[sp_mob.wait_data,sp_mob.void_shooter]}]}}}

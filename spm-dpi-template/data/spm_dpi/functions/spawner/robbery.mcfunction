@@ -1,1 +1,0 @@
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"husk",Tags:[sp_mob.wait_data,sp_mob.robbery]}}}

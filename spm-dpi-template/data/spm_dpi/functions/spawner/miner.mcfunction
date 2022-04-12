@@ -1,1 +1,0 @@
-setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"zombie",Tags:[sp_mob.wait_data,sp_mob.miner]}}}

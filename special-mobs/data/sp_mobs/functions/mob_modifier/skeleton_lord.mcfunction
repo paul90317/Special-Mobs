@@ -7,5 +7,5 @@ item replace entity @s armor.legs with chainmail_leggings
 item replace entity @s armor.feet with iron_boots
 item replace entity @s weapon.mainhand with diamond_sword
 
-function #spm_dpi:mob/item_replace/skeleton_lord
-function #spm_dpi:mob/item_modify/skeleton_lord
+function #spm_dpi:mob/rep/skeleton_lord
+function #spm_dpi:mob/mdf/skeleton_lord
