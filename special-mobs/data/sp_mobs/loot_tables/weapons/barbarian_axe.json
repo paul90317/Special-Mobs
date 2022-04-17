@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{sp_item:{is:1,np:1},sp_mob:{hand:1,id:bax,tmr:1},display:{Name:'{\"text\":\"Barbarian\\'s Axe\",\"color\":\"dark_red\"}',Lore:['{\"text\":\"Rush I\",\"color\":\"gray\"}']}}"
+                            "tag": "{sp_item:{is:1,np:1},sp_mob:{hand:1,id:bax,tmr:1},display:{Name:'{\"text\":\"Barbarian\\'s Axe\",\"color\":\"dark_red\",\"italic\":false}',Lore:['{\"text\":\"Rush I\",\"color\":\"gray\",\"italic\":false}']}}"
                         }
                     ]
                 }

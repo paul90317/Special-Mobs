@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sp_mob:{hand:1,tmr:1,id:bsax},Enchantments:[{id:\"sharpness\",lvl:2},{id:\"efficiency\",lvl:2}],display:{Name:'{\"text\":\"Axe of Berserker\",\"color\":\"gold\"}',Lore:['{\"text\":\"Fighting Spirit I\",\"color\":\"dark_red\"}']}}"
+                            "tag":"{sp_mob:{hand:1,tmr:1,id:bsax},Enchantments:[{id:\"sharpness\",lvl:2},{id:\"efficiency\",lvl:2}],display:{Name:'{\"text\":\"Axe of Berserker\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Fighting Spirit I\",\"color\":\"dark_red\",\"italic\":false}']}}"
                         }
                     ]
                 }

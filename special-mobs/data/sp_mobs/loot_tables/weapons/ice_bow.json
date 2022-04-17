@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sp_mob:{hand:1,id:sn,tmr:1},display:{Name:'{\"text\":\"Ice Bow\",\"color\":\"blue\"}',Lore:['{\"text\":\"Powder Snow I\",\"color\":\"gray\"}']}}"
+                            "tag":"{sp_mob:{hand:1,id:sn,tmr:1},display:{Name:'{\"text\":\"Ice Bow\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"Powder Snow I\",\"color\":\"gray\",\"italic\":false}']}}"
                         }
                     ]
                 }

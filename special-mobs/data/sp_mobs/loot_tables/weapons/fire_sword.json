@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{Enchantments:[{id:\"sharpness\",lvl:3}],sp_mob:{hand:1,id:fs},display:{Name:'{\"text\":\"Sword of Revenger\",\"color\":\"gold\"}',Lore:['{\"text\":\"Brutal Fire I\",\"color\":\"dark_red\"}']}}"
+                            "tag":"{Enchantments:[{id:\"sharpness\",lvl:3}],sp_mob:{hand:1,id:fs},display:{Name:'{\"text\":\"Sword of Revenger\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Brutal Fire I\",\"color\":\"dark_red\",\"italic\":false}']}}"
                         }
                     ]
                 }

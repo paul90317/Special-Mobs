@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{Enchantments:[{id:\"smite\",lvl:2},{id:\"fire_aspect\",lvl:1}],sp_item:{is:1,inv:1,np:1},sp_mob:{hand:1,id:ws},display:{Name:'{\"text\":\"Wind of Pain\",\"color\":\"gray\"}',Lore:['{\"text\":\"Wither I\",\"color\":\"dark_red\"}']}}"
+                            "tag":"{Enchantments:[{id:\"smite\",lvl:2},{id:\"fire_aspect\",lvl:1}],sp_item:{is:1,inv:1,np:1},sp_mob:{hand:1,id:ws},display:{Name:'{\"text\":\"Wind of Pain\",\"color\":\"gray\",\"italic\":false}',Lore:['{\"text\":\"Wither I\",\"color\":\"dark_red\",\"italic\":false}']}}"
                         }
                     ]
                 }
