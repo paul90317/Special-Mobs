@@ -1,0 +1,10 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "grass",
+        "dead_bush",
+        "structure_void"
+    ]
+}

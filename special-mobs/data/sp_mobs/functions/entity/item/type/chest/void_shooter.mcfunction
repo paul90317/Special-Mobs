@@ -1,1 +1,0 @@
-summon chest_minecart ~ ~ ~ {LootTable:"sp_mobs:chest/void_shooter",PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,CustomName:'{"text":"Void Treasure","color":"light_purple"}'}

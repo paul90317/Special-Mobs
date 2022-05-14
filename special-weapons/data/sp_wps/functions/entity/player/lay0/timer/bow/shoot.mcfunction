@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{tag:{sp_wp:{id:lt}}}}] run function sp_wps:entity/player/weapon/lt
+execute if entity @s[nbt={SelectedItem:{tag:{sp_wp:{id:sn}}}}] run function sp_wps:entity/player/weapon/sn

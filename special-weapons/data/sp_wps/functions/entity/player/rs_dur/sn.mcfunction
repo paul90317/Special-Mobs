@@ -1,0 +1,1 @@
+scoreboard players set @s spw.p.dur 35

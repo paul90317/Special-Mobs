@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{sp_wp:{hand:1,id:sn,tmr:1},display:{Name:'{\"text\":\"Ice Bow\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"Powder Snow I\",\"color\":\"gray\",\"italic\":false}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -6,8 +6,6 @@ execute if score #world spm.config.spawn_nature matches 1 as @e[type=#sp_mobs:en
 
 execute if score #world spm.config.ender_dragon matches 1 if predicate sp_mobs:1/4 run scoreboard players add @e[type=ender_dragon] spm.rage_value 10
 
-execute as @e[type=#sp_mobs:target] at @s run function sp_mobs:entity/target/effect
-
 execute as @e[type=armor_stand,tag=sp_mob] at @s run function sp_mobs:entity/as/loop10
 
 execute as @e[type=chest_minecart,tag=sp_mob,nbt={PortalCooldown:0}] run kill @s

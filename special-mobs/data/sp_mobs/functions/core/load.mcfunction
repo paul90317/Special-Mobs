@@ -27,15 +27,6 @@ scoreboard objectives add spm.config.ender_dragon dummy
 scoreboard objectives add spm.config.spaw_with_name_tag dummy
 scoreboard objectives add spm.config.spawn_nature dummy
 
-# Player
-scoreboard objectives add spm.p.sneak minecraft.custom:sneak_time
-scoreboard objectives add spm.p.dur dummy
-scoreboard objectives add spm.p.kill totalKillCount
-scoreboard objectives add spm.p.hst dummy
-scoreboard objectives add spm.p.bow minecraft.used:bow
-scoreboard objectives add spm.p.sslot dummy
-scoreboard objectives add spm.p.slot dummy
-
 # Initial
 # ender dragon is a special mobs
 execute store success score #world spm.temp run scoreboard players get #world spm.config.ender_dragon

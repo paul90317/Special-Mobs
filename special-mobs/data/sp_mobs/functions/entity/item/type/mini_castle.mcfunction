@@ -1,0 +1,1 @@
+setblock ~ ~ ~ shulker_box{LootTable:"sp_mobs:spm_loot/mini_castle"}

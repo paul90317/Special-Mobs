@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls":{
+                "min":1,
+                "max":2
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "chests/ruined_portal",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max":1,
+                                "min":2
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

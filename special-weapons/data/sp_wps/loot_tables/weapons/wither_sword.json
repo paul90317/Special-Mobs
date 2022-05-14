@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{Enchantments:[{id:\"smite\",lvl:2},{id:\"fire_aspect\",lvl:1}],sp_wp:{hand:1,id:ws},display:{Name:'{\"text\":\"Wind of Pain\",\"color\":\"gray\",\"italic\":false}',Lore:['{\"text\":\"Wither I\",\"color\":\"dark_red\",\"italic\":false}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

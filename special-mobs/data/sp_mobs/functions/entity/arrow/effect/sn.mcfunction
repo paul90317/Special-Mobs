@@ -1,1 +1,0 @@
-fill ~ ~ ~ ~ ~ ~ powder_snow replace #sp_mobs:air

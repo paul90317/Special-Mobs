@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot sp_mobs:spm_loot/crimson_aboriginal
