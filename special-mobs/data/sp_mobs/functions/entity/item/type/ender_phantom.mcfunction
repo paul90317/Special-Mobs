@@ -1,1 +1,1 @@
-loot spawn ~ ~ ~ loot sp_mobs:spm_loot/ender_phantom
+loot spawn ~ ~ ~ loot spm_user:spm_loot/ender_phantom

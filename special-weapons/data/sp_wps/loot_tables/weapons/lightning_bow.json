@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sp_wp:{hand:1,id:lt,tmr:1},display:{Name:'{\"text\":\"Lightning Bow\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Lightning Strike I\",\"color\":\"dark_red\",\"italic\":false}']}}"
+                            "tag":"{sp_wp:{hand:1,id:lt,tmr:1},display:{Name:'{\"text\":\"Lightning Bow\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Lightning Strike I\",\"color\":\"dark_red\",\"italic\":false}']},Enchantments:[{id:\"infinity\",lvl:1}]}"
                         }
                     ]
                 }

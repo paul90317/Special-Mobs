@@ -1,1 +1,1 @@
-loot spawn ~ ~ ~ loot sp_mobs:spm_loot/soul_falcon
+loot spawn ~ ~ ~ loot spm_user:spm_loot/soul_falcon

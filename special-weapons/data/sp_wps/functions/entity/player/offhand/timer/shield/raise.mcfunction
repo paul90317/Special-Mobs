@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{sp_wp:{id:gs}}}]}] run function sp_wps:entity/player/weapon/gs

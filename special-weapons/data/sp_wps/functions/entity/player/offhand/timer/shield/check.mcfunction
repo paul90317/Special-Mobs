@@ -1,0 +1,1 @@
+execute if entity @s[scores={spw.p.shd=1..}] run function sp_wps:entity/player/offhand/timer/shield/raise

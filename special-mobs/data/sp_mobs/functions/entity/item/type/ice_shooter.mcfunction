@@ -1,1 +1,1 @@
-loot spawn ~ ~ ~ loot sp_mobs:spm_loot/ice_shooter
+loot spawn ~ ~ ~ loot spm_user:spm_loot/ice_shooter

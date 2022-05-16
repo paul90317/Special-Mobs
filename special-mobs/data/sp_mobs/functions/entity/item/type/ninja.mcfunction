@@ -1,1 +1,1 @@
-loot spawn ~ ~ ~ loot sp_mobs:spm_loot/ninja
+loot spawn ~ ~ ~ loot spm_user:spm_loot/ninja

@@ -1,1 +1,1 @@
-loot spawn ~ ~ ~ loot sp_mobs:spm_loot/robbery
+loot spawn ~ ~ ~ loot spm_user:spm_loot/robbery

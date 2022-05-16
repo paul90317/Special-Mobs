@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{sp_wp:{hand:1,id:bax,tmr:1},display:{Name:'{\"text\":\"Barbarian\\'s Axe\",\"color\":\"dark_red\",\"italic\":false}',Lore:['{\"text\":\"Rush I\",\"color\":\"gray\",\"italic\":false}']}}"
+                            "tag": "{sp_wp:{hand:1,id:bax,tmr:1},display:{Name:'{\"text\":\"Barbarian\\'s Axe\",\"color\":\"dark_green\",\"italic\":false}',Lore:['{\"text\":\"Rush I\",\"color\":\"gray\",\"italic\":false}']},Enchantments:[{id:\"efficiency\",lvl:1}]}"
                         }
                     ]
                 }

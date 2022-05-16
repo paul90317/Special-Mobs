@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] run function sp_wps:entity/player/offhand/timer/shield/check

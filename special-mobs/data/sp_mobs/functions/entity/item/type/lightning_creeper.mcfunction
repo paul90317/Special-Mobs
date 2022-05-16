@@ -1,4 +1,4 @@
-summon chest_minecart ~ ~ ~ {PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,LootTable:"sp_mobs:spm_loot/lightning_creeper"}
+summon chest_minecart ~ ~ ~ {PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,LootTable:"spm_user:spm_loot/lightning_creeper"}
 summon lightning_bolt ~-4 ~ ~
 summon lightning_bolt ~ ~ ~-2
 summon lightning_bolt ~ ~ ~2

@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag":"{sp_wp:{hand:1,id:sn,tmr:1},display:{Name:'{\"text\":\"Ice Bow\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"Powder Snow I\",\"color\":\"gray\",\"italic\":false}']}}"
+                            "tag":"{sp_wp:{hand:1,id:sn,tmr:1},display:{Name:'{\"text\":\"Ice Bow\",\"color\":\"blue\",\"italic\":false}',Lore:['{\"text\":\"Powder Snow I\",\"color\":\"gray\",\"italic\":false}']},Enchantments:[{id:\"power\",lvl:1}]}"
                         }
                     ]
                 }
