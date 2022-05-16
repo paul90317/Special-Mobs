@@ -1,1 +1,1 @@
-execute as @a[nbt={HurtTime:9s},distance=..4] run function sp_mobs:skill/hurt/p_steal
+execute as @a[scores={spm.hurttime=7..9},distance=..4] run function sp_mobs:skill/hurt/p_steal

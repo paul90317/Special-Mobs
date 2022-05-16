@@ -1,0 +1,2 @@
+scoreboard players set #world spm.intv.7 0
+execute as @e[type=#sp_mobs:enimy] at @s if predicate spm_user:rage_value_auto_increase if entity @p[distance=..48] run scoreboard players add @s spm.rage_value 7

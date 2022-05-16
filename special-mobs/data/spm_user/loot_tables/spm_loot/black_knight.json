@@ -54,6 +54,28 @@
         },
         {
             "rolls": {
+                "max": 2,
+                "min": 1
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:chests/nether_bridge",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 2,
+                                "min": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
                 "min": 1,
                 "max": 6
             },

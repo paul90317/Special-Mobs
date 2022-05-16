@@ -8,7 +8,6 @@ execute if entity @s[tag=sp_mob.ice_shooter] run function sp_mobs:mob_modifier/i
 execute if entity @s[tag=sp_mob.miner] run function sp_mobs:mob_modifier/miner
 execute if entity @s[tag=sp_mob.mini_castle] run function sp_mobs:mob_modifier/mini_castle
 execute if entity @s[tag=sp_mob.ninja] run function sp_mobs:mob_modifier/ninja
-execute if entity @s[tag=sp_mob.revenger] run function sp_mobs:mob_modifier/revenger
 execute if entity @s[tag=sp_mob.robbery] run function sp_mobs:mob_modifier/robbery
 execute if entity @s[tag=sp_mob.sailor] run function sp_mobs:mob_modifier/sailor
 execute if entity @s[tag=sp_mob.ender_phantom] run function sp_mobs:mob_modifier/ender_phantom

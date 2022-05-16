@@ -1,1 +1,1 @@
-execute as @e[type=#sp_mobs:friend,distance=..8,nbt={HurtTime:9s}] at @s run summon lightning_bolt
+execute as @e[type=#sp_mobs:friend,distance=..8,scores={spm.hurttime=7..9}] at @s run summon lightning_bolt

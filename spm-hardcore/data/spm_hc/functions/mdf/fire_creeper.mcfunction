@@ -1,1 +1,1 @@
-effect give @s resistance 999999 0
+attribute @s generic.movement_speed base set 0.31

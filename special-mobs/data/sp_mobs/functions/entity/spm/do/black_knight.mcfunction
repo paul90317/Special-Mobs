@@ -1,1 +1,1 @@
-execute if entity @e[type=#sp_mobs:friend,nbt={HurtTime:9s}] run scoreboard players add @s spm.rage_value 25
+execute if entity @e[type=#sp_mobs:friend,scores={spm.hurttime=7..9}] run scoreboard players add @s spm.rage_value 25

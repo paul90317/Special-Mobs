@@ -13,7 +13,6 @@ execute if entity @s[tag=sp_mob.lightning_creeper] run function spm_hc:mdf/light
 execute if entity @s[tag=sp_mob.miner] run function spm_hc:mdf/miner
 execute if entity @s[tag=sp_mob.mini_castle] run function spm_hc:mdf/mini_castle
 execute if entity @s[tag=sp_mob.ninja] run function spm_hc:mdf/ninja
-execute if entity @s[tag=sp_mob.revenger] run function spm_hc:mdf/revenger
 execute if entity @s[tag=sp_mob.robbery] run function spm_hc:mdf/robbery
 execute if entity @s[tag=sp_mob.sailor] run function spm_hc:mdf/sailor
 execute if entity @s[tag=sp_mob.skeleton_lord] run function spm_hc:mdf/skeleton_lord

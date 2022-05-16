@@ -1,4 +1,4 @@
-data merge entity @s {DeathLootTable:"sp_mobs:spm/fire_knight",CustomName:'{"text":"Fire Knight","color":"gold"}'}
+data merge entity @s {DeathLootTable:"sp_mobs:spm/fire_knight",CustomName:'{"text":"Fire Knight","color":"gold"}',AbsorptionAmount:10}
 
 execute if predicate sp_mobs:1/2 run item replace entity @s armor.head with magma_block
 execute if predicate sp_mobs:1/3 run item replace entity @s armor.head with honey_block

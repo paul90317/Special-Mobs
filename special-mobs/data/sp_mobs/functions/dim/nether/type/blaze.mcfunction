@@ -1,1 +1,1 @@
-execute if predicate spm_user:spawn_rate/revenger run function sp_mobs:summon/revenger
+execute if predicate spm_user:spawn_rate/fire_knight run function sp_mobs:summon/fire_knight

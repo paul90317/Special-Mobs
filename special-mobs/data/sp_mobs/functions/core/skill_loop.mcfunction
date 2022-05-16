@@ -1,0 +1,2 @@
+execute as @e[type=#sp_mobs:friend] store result score @s spm.hurttime run data get entity @s HurtTime
+execute as @e[type=#sp_mobs:enimy,tag=sp_mob.skill] at @s if entity @p[distance=..48] run function sp_mobs:entity/spm/loop

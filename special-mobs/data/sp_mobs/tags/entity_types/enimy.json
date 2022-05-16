@@ -3,7 +3,6 @@
         "#skeletons",
         "minecraft:zombie",
         "minecraft:piglin",
-        "blaze",
         "spider",
         "enderman",
         "shulker",
@@ -15,7 +14,6 @@
         "#spm_dpi:special_mob",
         "creeper",
         "zombified_piglin",
-        "magma_cube",
-        "strider"
+        "magma_cube"
     ]
 }

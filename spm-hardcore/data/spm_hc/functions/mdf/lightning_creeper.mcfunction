@@ -1,1 +1,1 @@
-effect give @s speed 999999 0
+attribute @s generic.movement_speed base set 0.31

@@ -1,1 +1,0 @@
-summon chest_minecart ~ ~ ~ {PortalCooldown:6000,Tags:[sp_mob],Invulnerable:1b,LootTable:"spm_user:spm_loot/revenger"}

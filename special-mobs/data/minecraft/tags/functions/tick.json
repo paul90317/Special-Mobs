@@ -1,5 +1,5 @@
 {
     "values": [
-        "sp_mobs:core/loop"
+        "sp_mobs:core/tick"
     ]
 }

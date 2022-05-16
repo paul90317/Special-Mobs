@@ -6,7 +6,6 @@ execute if entity @s[tag=sp_mob.alien] run function sp_mobs:entity/spm/do/alien
 
 # in the nether
 execute if entity @s[tag=sp_mob.black_knight] run function sp_mobs:entity/spm/do/black_knight
-execute if entity @s[tag=sp_mob.revenger,scores={spm.rage_value=120..}] run function sp_mobs:entity/spm/do/revenger
 execute if entity @s[tag=sp_mob.bastion_guard,scores={spm.rage_value=80..}] run function sp_mobs:entity/spm/do/bastion_guard
 execute if entity @s[tag=sp_mob.berserker,scores={spm.rage_value=90..}] run function sp_mobs:entity/spm/do/berserker
 execute if entity @s[tag=sp_mob.warp_enderman] run function sp_mobs:entity/spm/do/warp_enderman

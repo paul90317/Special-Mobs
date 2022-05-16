@@ -1,6 +1,2 @@
 scoreboard players reset @s spm.rage_value
-
-execute store success score @s spm.temp run data get entity @s CustomName
-execute if score #world spm.config.spaw_with_name_tag matches 1 run scoreboard players set @s spm.temp 0
-
-execute if score @s spm.temp matches 0 unless entity @e[type=#sp_mobs:enimy,tag=sp_mob.skill,distance=..16] run function #spm_dpi:nature_spawn/dimension_type
+execute unless entity @e[type=#sp_mobs:enimy,tag=sp_mob.skill,distance=..16] run function sp_mobs:entity/wait_spawn/spawn

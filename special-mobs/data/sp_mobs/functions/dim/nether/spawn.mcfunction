@@ -5,4 +5,3 @@ execute if entity @s[type=enderman] run function sp_mobs:dim/nether/type/em
 execute if entity @s[type=zombified_piglin] run function sp_mobs:dim/nether/type/zpgl
 execute if entity @s[type=skeleton] run function sp_mobs:dim/nether/type/sk
 execute if entity @s[type=magma_cube] run function sp_mobs:dim/nether/type/magma
-execute if entity @s[type=strider] run function sp_mobs:dim/nether/type/strider

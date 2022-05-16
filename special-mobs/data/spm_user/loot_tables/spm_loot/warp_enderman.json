@@ -33,6 +33,53 @@
                     ]
                 }
             ]
+        },
+        {
+            "rolls": {
+                "max": 3,
+                "min": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name":"lapis_lazuli",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name":"redstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name":"glowstone_dust",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 3,
+                                "min": 2
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
