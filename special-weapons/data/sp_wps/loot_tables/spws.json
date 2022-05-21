@@ -1,0 +1,57 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/barbarian_axe"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/berserker_axe"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/fire_sword"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/guard_shield"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/ice_bow"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/lemon_tree"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/lightning_bow"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/ninja_knife"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/oasis"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/piglin_crossbow"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/poison_sword"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "sp_wps:weapons/wither_sword"
+                }
+            ]
+        }
+    ]
+}

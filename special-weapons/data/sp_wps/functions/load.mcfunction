@@ -16,3 +16,6 @@ scoreboard objectives add spw.p.mtsh dummy
 scoreboard objectives add spw.p.arrow dummy
 
 scoreboard objectives add spw.p.shd minecraft.used:shield
+
+scoreboard objectives add spw.tmr.5 dummy
+scoreboard objectives add spw.tmr.29 dummy

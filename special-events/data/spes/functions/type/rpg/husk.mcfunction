@@ -1,0 +1,1 @@
+execute if predicate spm_user:spawn_rate/robbery run function sp_mobs:summon/robbery

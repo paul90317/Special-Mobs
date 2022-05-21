@@ -1,0 +1,1 @@
+execute if predicate spm_user:spawn_rate/black_widow run function sp_mobs:summon/black_widow

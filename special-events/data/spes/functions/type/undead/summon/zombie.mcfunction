@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ water run summon zombie ~ ~ ~ {Tags:[sp_mob.wait_data,sp_mob.crazy_zombie]}
+execute if block ~ ~ ~ water run summon drowned ~ ~ ~ {Tags:[sp_mob.wait_data,sp_mob.crazy_zombie]}

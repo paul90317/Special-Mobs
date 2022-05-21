@@ -10,3 +10,4 @@ execute if predicate spm_user:drop_chance/ninja_knife if entity @s[nbt={Item:{ta
 execute if predicate spm_user:drop_chance/piglin_crossbow if entity @s[nbt={Item:{tag:{spm_loot:crimson_aboriginal}}}] run loot spawn ~ ~ ~ loot sp_wps:weapons/piglin_crossbow
 execute if predicate spm_user:drop_chance/lemon_tree if entity @s[nbt={Item:{tag:{spm_loot:sailor}}}] run loot replace entity @e[type=chest_minecart,tag=sp_mob,sort=nearest,limit=1,distance=..1] container.13 loot sp_wps:weapons/lemon_tree
 execute if predicate spm_user:drop_chance/guard_shield if entity @s[nbt={Item:{tag:{spm_loot:bastion_guard}}}] run loot spawn ~ ~ ~ loot sp_wps:weapons/guard_shield
+execute if predicate spm_user:special_letter run function sp_wps:special_letter

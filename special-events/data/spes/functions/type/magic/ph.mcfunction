@@ -1,0 +1,1 @@
+execute if predicate spm_user:spawn_rate/ender_phantom run function sp_mobs:summon/ender_phantom

@@ -1,0 +1,1 @@
+execute if entity @s[tag=sp_mob.crazy_zombie] run function spes:type/undead/mdf

@@ -1,0 +1,1 @@
+execute if predicate spm_user:spawn_rate/skeleton_lord run function sp_mobs:summon/skeleton_lord

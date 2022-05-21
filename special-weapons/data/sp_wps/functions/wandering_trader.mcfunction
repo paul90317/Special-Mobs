@@ -1,0 +1,2 @@
+tag @s add spw.mdf
+data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",Count:12b},buyB:{id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text":"Special Letter"}'},special_letter:1b,Enchantments:[{id:"binding_curse",lvl:1}],HideFlags:1}},maxUses:1,sell:{id:"minecraft:knowledge_book",Count:1b,tag:{display:{Name:'{"text":"Special Weapon"}',Lore:['{"text":"? ? ?"}']},special_weapon:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}],HideFlags:1}}}

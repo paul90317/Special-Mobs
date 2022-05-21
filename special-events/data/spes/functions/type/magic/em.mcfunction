@@ -1,0 +1,1 @@
+execute if predicate spm_user:spawn_rate/warp_enderman run function sp_mobs:summon/warp_enderman

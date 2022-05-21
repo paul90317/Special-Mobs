@@ -19,6 +19,6 @@ execute if entity @s[tag=sp_mob.barbarian,scores={spm.rage_value=90..}] run func
 execute if entity @s[tag=sp_mob.miner,scores={spm.rage_value=80..}] unless block ~ ~ ~ oak_planks run function sp_mobs:entity/spm/do/miner_score
 execute if entity @s[tag=sp_mob.ice_shooter] run function sp_mobs:skill/snow
 execute if entity @s[tag=sp_mob.robbery] run function sp_mobs:skill/hurt/steal
-execute if entity @s[tag=sp_mob.black_widow] run particle minecraft:nautilus ~ ~1.5 ~ 0 0 0 1.0 2
+execute if entity @s[tag=sp_mob.black_widow] run particle minecraft:nautilus ~ ~1.5 ~ 0 0 0 0.6 1
 execute if entity @s[tag=sp_mob.fire_creeper] run particle minecraft:flame ~ ~0.3 ~ 0 0 0 0.1 2
-execute if entity @s[tag=sp_mob.lightning_creeper] run particle minecraft:instant_effect ~ ~0.3 ~ 0 0 0 0.3 2
+execute if entity @s[tag=sp_mob.lightning_creeper] run particle minecraft:instant_effect ~ ~0.3 ~ 0 0 0 0.1 1

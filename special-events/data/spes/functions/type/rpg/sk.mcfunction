@@ -1,0 +1,1 @@
+execute if predicate spm_user:spawn_rate/ninja run function sp_mobs:summon/ninja
