@@ -1,4 +1,4 @@
-# Special Mobs Development
+# Special Mobs and its addons
 This repos contain four data pack for playing
 * [Special Mobs](/special-mobs)
 * [Special Weapons](/special-weapons/)
@@ -10,21 +10,21 @@ Python program in [python_scripts](/python_scripts/) help me generate instructio
 [old](/old/) contain old version, all of them are out of date.  
 ## Special Spawner
 Because my mobs set using dynamic set, that means when a special mob spawn, it is a normal mob with tag `sp_mob.<special_mob_id>`, which means what kink of special mobs this mob will be, `sp_mob.wait_data` to tell the tick function of this datapack that this mob is unset and need to be set, then tick function will remove tag `sp_mob.wait_data` from this mob, wear specific armors onto it and tag it with `sp_mob.skill` for it to perform skill.  
-***
+
 So if you want to create a spawner of this mob, you don't need to wear the armor by yourself, you just give tag the mob with `sp_mob.<special_mob_id>` and `sp_mob.wait_data` ,  
 **e.g.**
-```
-/setblock ~ ~ ~ spawner{SpawnData:{entity:{id:`minecraft:skeleton`,Tags:[sp_mob.wait_data,sp_mob.miner]}}}
+```mcfunction
+setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"minecraft:skeleton",Tags:[sp_mob.wait_data,sp_mob.miner]}}}
 ```
 > will create a skeleton which is a miner, and wear the miner suit on it.
-***
+
 In the other word, if you want to create a mob only with the skill, don't tag it with `sp_mob.wait_data` but `sp_mob.skill`,  
 **e.g.**
 ```mcfunction
-/setblock ~ ~ ~ spawner{SpawnData:{entity:{id:`minecraft:skeleton`,Tags:[sp_mob.skill,sp_mob.miner]}}}
+setblock ~ ~ ~ spawner{SpawnData:{entity:{id:"minecraft:skeleton",Tags:[sp_mob.skill,sp_mob.miner]}}}
 ```
 > will create a skeleton which can perform miner's skill.  
-***
+
 I think this is very useful when you want to create a dungeon datapacks, or you just want to create a server or map.  
 If you want to use it in your content, let me know (not forced) and make sure credit me.
 ## Tags
@@ -80,6 +80,10 @@ item replace entity @s armor.head with carved_pumpkin
 this command will equip miner with a carved_pumpkin on its head.
 ### dimension_type.json
 when a normal mob's rage value exceed the threshold of spawning, the mob will execute this function tag.  
+>**Threshold**  
+Each mob has an independent chance to increase rage value per 7 ticks.  
+For normal mobs, they may spawn special mobs if their rage value is over the spawn threshold.  
+
 **e.g.**  
 function in function tag #**spm_dpi:nature_spawn/dimension_type**
 ```mcfunction
@@ -92,5 +96,5 @@ summon spider
 above thing will make spider spawn from all of the normal mobs in your dimension.
 ### Template of event loop
 you do not need to **and not allowed to** copy the content of this repos into your datapack.  
-you can just use the template [Template-with-Special-mobs-DPI](https://github.com/paul90317/Template-with-Special-mobs-DPI) to make a addon datapack with special mobs.
+You can just use the template [Template-with-Special-mobs-DPI](https://github.com/paul90317/Template-with-Special-mobs-DPI) to make an addon datapack of special mobs.
 
