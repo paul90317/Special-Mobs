@@ -95,6 +95,6 @@ summon spider
 ```
 above thing will make spider spawn from all of the normal mobs in your dimension.
 ### Template of event loop
-you do not need to **and not allowed to** copy the content of this repos into your datapack.  
+You do not need to **and not allowed to** copy the content of this repos into your datapack  
 You can just use the template [Template-with-Special-mobs-DPI](https://github.com/paul90317/Template-with-Special-mobs-DPI) to make an addon datapack of special mobs.
 
