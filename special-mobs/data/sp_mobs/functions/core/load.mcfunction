@@ -23,12 +23,12 @@ scoreboard players set #world spm.intv.113 0
 
 
 # Config
-scoreboard objectives add spm.config.spawn_nature dummy
+scoreboard objectives add spm.cf.spnt dummy
 
 # Initial
 # special mobs spawn naturely
-execute store success score #world spm.temp run scoreboard players get #world spm.config.spawn_nature
-execute if score #world spm.temp matches 0 run scoreboard players set #world spm.config.spawn_nature 1
+execute store success score #world spm.temp run scoreboard players get #world spm.cf.spnt
+execute if score #world spm.temp matches 0 run scoreboard players set #world spm.cf.spnt 1
 
 execute store success score #world spm.temp run scoreboard players get #world spm.threshold
 execute if score #world spm.temp matches 0 run scoreboard players set #world spm.threshold 100

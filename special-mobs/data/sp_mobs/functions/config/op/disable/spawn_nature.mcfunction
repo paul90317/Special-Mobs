@@ -1,2 +1,2 @@
-scoreboard players set #world spm.config.spawn_nature 0
+scoreboard players set #world spm.cf.spnt 0
 function sp_mobs:config/gui
