@@ -1,13 +1,14 @@
 # Special Mobs and its addons
-This repos contain four data pack for playing
-* [Special Mobs](/special-mobs)
-* [Special Weapons](/special-weapons/)
-* [Special Mobs Hardcore](/spm-hardcore/)
-* [Special Day Events](/special-events/)  
-
-And one data pack for developing ([debug](/debug/)).  
-Python program in [python_scripts](/python_scripts/) help me generate instructions.  
-[old](/old/) contain old version, all of them are out of date.  
+This repos contain four data pack, **don't repost them, see [license](#license)**.
+* [Special Mobs (main)](/special-mobs)
+* [Special Weapons (addon)](/special-weapons/)
+* [Special Mobs Hardcore (addon)](/spm-hardcore/)
+* [Special Day Events (addon)](/special-events/)  
+## License (very important)
+This README Written for those who want to make an addon datapacks, which means you won't and don't be allowed to copy any content of this repos, but if you want a template, [see this](https://github.com/paul90317/Template-with-Special-mobs-DPI).  
+If you want to make a minecraft server with these datapacks, it's ok, download it from [PMC](https://www.planetminecraft.com/data-pack/minecraft-but-there-are-some-crazy-mobs/).  
+You can also create a video for this datapack, but you need to add [the link of special mobs in PMC](https://www.planetminecraft.com/data-pack/minecraft-but-there-are-some-crazy-mobs/) to your video, and you are not allowed to repost them.  
+**"repost"** means copy my file and post them on your content.
 ## Special Spawner
 Because my mobs set using dynamic set, that means when a special mob spawn, it is a normal mob with tag `sp_mob.<special_mob_id>`, which means what kink of special mobs this mob will be, `sp_mob.wait_data` to tell the tick function of this datapack that this mob is unset and need to be set, then tick function will remove tag `sp_mob.wait_data` from this mob, wear specific armors onto it and tag it with `sp_mob.skill` for it to perform skill.  
 
